@@ -23,23 +23,14 @@ In-memory storage (ArrayList)
 
 #project structure
 movie-api/
-
 ├── src/main/java/com/example/movieapi
-
 │ ├── MovieApiApplication.java
-
 │ ├── controller/MovieController.java
-
 │ ├── model/Movie.java
-
 │ └── service/MovieService.java
-
 ├── src/main/resources
-
 │ └── application.properties
-
 ├── pom.xml
-
 └── README.md
 
 
@@ -51,17 +42,18 @@ type |	int |	string |	string	|	int
 
 
 #API end points
-for adding
+for adding =>  https://movieapi-lu3d.onrender.com/api/movies/add
+ex
+{
+  "id": 1,
+  "name": "Inception",
+  "description": "A mind-bending sci-fi thriller",
+  "releaseYear": 2010
+}
 
-POST /api/movies/add
+get by id =>   https://movieapi-lu3d.onrender.com/api/movies/get/1
 
-get by id 
-
-GET /api/movies/get/1
-
-get all
-
-GET /api/movies/all
+get all =>   https://movieapi-lu3d.onrender.com/api/movies/all
 
 
 
