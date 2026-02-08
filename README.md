@@ -20,20 +20,6 @@ REST API
 
 In-memory storage (ArrayList)
 
-
-#project structure
-movie-api/
-├── src/main/java/com/example/movieapi
-│ ├── MovieApiApplication.java
-│ ├── controller/MovieController.java
-│ ├── model/Movie.java
-│ └── service/MovieService.java
-├── src/main/resources
-│ └── application.properties
-├── pom.xml
-└── README.md
-
-
 #inputs 
 field 	|	id 	|	name |	description 	|	realseyear	
 
@@ -43,6 +29,7 @@ type |	int |	string |	string	|	int
 
 #API end points
 for adding =>  https://movieapi-lu3d.onrender.com/api/movies/add
+
 ex
 {
   "id": 1,
